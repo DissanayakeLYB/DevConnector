@@ -5,8 +5,8 @@ import Header from "../components/Header";
 function Login() {
     return (
         <div className="flex flex-col min-h-screen justify-between">
-            <Header pageName="login" />
-            <main className="flex flex-col m-auto min-w-xl p-10 rounded-4xl bg-blue-50">
+            <Header />
+            <main className="flex flex-col m-auto min-w-lg p-10 rounded-4xl bg-blue-50">
                 <h1 className="text-3xl font-bold mb-10">Login</h1>
                 <div className="flex flex-col mb-6">
                     <label className="text-lg font-medium">Email</label>

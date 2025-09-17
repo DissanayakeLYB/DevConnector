@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
-function Register() {
+function SignUp() {
     return (
         <div className="flex flex-col min-h-screen justify-between">
-            <Header pageName="register" />
+            <Header />
             <main className="flex flex-col m-auto min-w-xl p-10 rounded-4xl bg-blue-50">
-                <h1 className="text-3xl font-bold mb-10">Register</h1>
+                <h1 className="text-3xl font-bold mb-10">Sign Up</h1>
                 <div className="flex flex-col mb-6">
                     <label className="text-lg font-medium">Username</label>
                     <input className="font-normal focus:outline-none" type="text" placeholder="Enter your username" />
@@ -39,4 +39,4 @@ function Register() {
     );
 }
 
-export default Register;
+export default SignUp;
