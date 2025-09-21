@@ -1,7 +1,10 @@
-import express from "express";
+#!/usr/bin/env node
 
-const port = 5000;
+const note = process.argv[2];
 
-const app = express();
+const newNote = {
+    content: note,
+    id: Date.now(),
+};
 
-app.listen(port, () => {});
+console.log(newNote);
