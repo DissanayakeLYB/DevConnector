@@ -6,22 +6,28 @@ function Login() {
     return (
         <div className="flex flex-col min-h-screen justify-between">
             <Header />
-            <main className="flex flex-col m-auto min-w-lg p-10 rounded-4xl bg-blue-50">
-                <h1 className="text-3xl font-bold mb-10">Login</h1>
+            <main className="flex flex-col m-auto min-w-sm p-10 rounded-3xl bg-blue-50">
+                <h1 className="text-3xl mb-7 text-center">Log In</h1>
                 <div className="flex flex-col mb-6">
-                    <label className="text-lg font-medium">Email</label>
-                    <input className="font-normal focus:outline-none" type="email" placeholder="Enter your email" />
+                    <input
+                        className="text-md font-normal focus:outline-none pb-2 border-b-1 border-gray-500"
+                        type="email"
+                        placeholder="Enter your email"
+                    />
                 </div>
                 <div className="flex flex-col mb-6">
-                    <label className="text-lg font-medium">Password</label>
-                    <input className="font-normal focus:outline-none" type="password" placeholder="Enter your password" />
+                    <input
+                        className="text-md font-normal focus:outline-none pb-2 border-b-1 border-gray-500"
+                        type="password"
+                        placeholder="Enter your password"
+                    />
                 </div>
-                <button className="text-xl bg-blue-500 text-white py-3 rounded-lg cursor-pointer">Login</button>
-                <div className="mt-6 text-center">
+                <button className="text-md bg-blue-500 text-white font-normal py-3 rounded-lg cursor-pointer">Login</button>
+                <div className="mt-6 text-center text-md font-normal">
                     <p>
                         Don't have an account?{" "}
-                        <Link to="/register" className="text-blue-500 hover:underline underline-offset-6">
-                            Register here
+                        <Link to="/signup" className=" text-blue-500 hover:underline underline-offset-6">
+                            Sign Up
                         </Link>
                     </p>
                 </div>

@@ -8,12 +8,15 @@ function Header() {
             </Link>
             <ul className="flex flex-row gap-6 text-lg ">
                 <li>
-                    <Link to="/login" className="hover:underline underline-offset-8 cursor-pointer">
+                    <Link to="/login" className="text-base hover:underline underline-offset-8 cursor-pointer">
                         Login
                     </Link>
                 </li>
                 <li>
-                    <Link to="/signup" className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-lg transition duration-300">
+                    <Link
+                        to="/signup"
+                        className="text-base bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-lg transition duration-300"
+                    >
                         Sign Up
                     </Link>
                 </li>
